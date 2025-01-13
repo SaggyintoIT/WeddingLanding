@@ -7,6 +7,7 @@ import MainLogin from "./components/LoginReg/MainLogin";
 import RegisterNow from "./components/LoginReg/RegisterUser";
 import { UpdateFollower } from "react-mouse-follower";
 import HomePageMain from "./components/HomePageMain";
+import Testimonials from "./components/Testimonials";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
             <Route path="/" element={<HomePageMain />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/login" element={<MainLogin />} />
+            
             <Route path="/register" element={<RegisterNow />} />
           </Routes>
         </UpdateFollower>

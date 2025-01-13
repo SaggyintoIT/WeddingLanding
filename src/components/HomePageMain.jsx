@@ -4,6 +4,7 @@ import MainMid1 from './MainMid1'
 import Pricing from './Pricing'
 import LowerMain from './LowerMain'
 import Contact from './Contact'
+import Testimonials from './Testimonials'
 
 const HomePageMain = () => {
   return (
@@ -12,17 +13,19 @@ const HomePageMain = () => {
         <Hero />
       </section>
 
-      <section id="Categories" className="Categories">
+      <section id="Features" className="Features">
         <MainMid1 />
       </section>
 
       <section id="Pricing" className="Pricing">
         <Pricing />
       </section>
-
+   
       <section id="About" className="About">
         <LowerMain />
       </section>
+      <Testimonials/>
+   
 
 
     </>

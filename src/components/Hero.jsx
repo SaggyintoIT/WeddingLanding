@@ -263,11 +263,12 @@ const Hero = () => {
             </AnimatePresence>
           </div>
           {/* ______ WhatsApp Icon ______ */}
-          <div className="text-3xl text-white fixed bottom-10 right-10 hover:rotate-[360deg] duration-500 z-[99999] mix-blend-difference">
-            <a href="">
-              <FaWhatsapp />
-            </a>
-          </div>
+          <div className="text-3xl text-orange fixed bottom-10 right-10 hover:rotate-[360deg] z-50 duration-500 z-[99999] mix-blend-difference">
+  <a href="https://wa.me/7992312049" target="_blank" rel="noopener noreferrer">
+    <FaWhatsapp className="text-orange-900"/>  
+  </a>
+</div>
+
         </div>
       </motion.section>
     </>

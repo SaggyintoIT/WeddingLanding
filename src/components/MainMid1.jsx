@@ -76,7 +76,7 @@ const MainMid1 = () => {
             </div>
             <button 
             className="MyPageBTN">
-              Button
+              Send
             </button>
           </div>
           <p className="text-sm mt-2 text-gray-500 mb-8 w-full">
